@@ -1,9 +1,12 @@
 package mx.com.personal.conversormoneda;
-import javax.swing.JOptionPane;
 
-public class app {
+
+public class App {
 	public static void main(String[] args) {
 		
+		VentanaMadre nuevaVentana = new VentanaMadre();
+		
+		nuevaVentana.start();
 		
 	}
 	
